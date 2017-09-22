@@ -86,7 +86,7 @@ public class SeasonTicket implements ISeasonTicket {
 
 	@Override
 	public List<IUsageRecord> getUsageRecords() {
-		return Collections.unmodifiableList(usages);
+            return usages;
 	}
 
 
