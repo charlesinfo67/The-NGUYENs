@@ -44,12 +44,8 @@ public class Carpark implements ICarpark {
 	@Override
 	public void deregister(ICarparkObserver observer) {
  
-		// remove observer as an entity to be notified 
-		// Auto_generated stub
-
-		if (observers.contains(observer)) {
-			observers.remove(observer);
-		}
+		// TODO Auto-generated method stub
+		observers.remove(observer);
 	}
 	
 	
